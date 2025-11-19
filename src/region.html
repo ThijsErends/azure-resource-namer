@@ -1,80 +1,81 @@
 <template>
   <label for="region" class="form-label">Region</label>
   <select class="form-control" id="region" value.bind="name" title="The Azure region where the resource is deployed">
+
     <optgroup label="Africa">
-      <option value="SAN" title="Johannesburg">South Africa North</option>
-      <option value="SAW" title="Cape Town">South Africa West</option>
+      <option value="san" title="Johannesburg">South Africa North</option>
+      <option value="saw" title="Cape Town">South Africa West</option>
     </optgroup>
     <optgroup label="Asia Pacific">
-      <option value="ACL" title="Canberra">Australia Central</option>
-      <option value="ACL2" title="Canberra">Australia Central 2</option>
-      <option value="AE" title="New South Wales">Australia East</option>
-      <option value="ASE" title="Victoria">Australia Southeast</option>
-      <option value="INC" title="Pune">Central India</option>
-      <option value="EA" title="Hong Kong">East Asia</option>
-      <option value="IDC" title="Jakarta">Indonesia Central</option>
-      <option value="JPE" title="Tokyo, Saitama">Japan East</option>
-      <option value="JPW" title="Osaka">Japan West</option>
-      <option value="JIC" title="Nagpur">Jio India Central</option>
-      <option value="JIW" title="Jamnagar">Jio India West</option>
-      <option value="KRC" title="Seoul">Korea Central</option>
-      <option value="KRS" title="Busan">Korea South</option>
-      <option value="MYW" title="Kuala Lumpur">Malaysia West</option>
-      <option value="NZN" title="Auckland">New Zealand North</option>
-      <option value="SEA" title="Singapore">Southeast Asia</option>
-      <option value="INS" title="Chennai">South India</option>
-      <option value="INW" title="Mumbai">West India</option>
+      <option value="acl" title="Canberra">Australia Central</option>
+      <option value="acl2" title="Canberra">Australia Central 2</option>
+      <option value="ae" title="New South Wales">Australia East</option>
+      <option value="ase" title="Victoria">Australia Southeast</option>
+      <option value="inc" title="Pune">Central India</option>
+      <option value="ea" title="Hong Kong">East Asia</option>
+      <option value="idc" title="Jakarta">Indonesia Central</option>
+      <option value="jpe" title="Tokyo, Saitama">Japan East</option>
+      <option value="jpw" title="Osaka">Japan West</option>
+      <option value="jic" title="Nagpur">Jio India Central</option>
+      <option value="jiw" title="Jamnagar">Jio India West</option>
+      <option value="krc" title="Seoul">Korea Central</option>
+      <option value="krs" title="Busan">Korea South</option>
+      <option value="myw" title="Kuala Lumpur">Malaysia West</option>
+      <option value="nzn" title="Auckland">New Zealand North</option>
+      <option value="sea" title="Singapore">Southeast Asia</option>
+      <option value="ins" title="Chennai">South India</option>
+      <option value="inw" title="Mumbai">West India</option>
     </optgroup>
     <optgroup label="Canada">
-      <option value="CNC" title="Toronto">Canada Central</option>
-      <option value="CNE" title="Quebec">Canada East</option>
+      <option value="cnc" title="Toronto">Canada Central</option>
+      <option value="cne" title="Quebec">Canada East</option>
     </optgroup>
     <optgroup label="Europe">
-      <option value="FRC" title="Paris">France Central</option>
-      <option value="FRS" title="Marseille">France South</option>
-      <option value="GN" title="Berlin">Germany North</option>
-      <option value="GWC" title="Frankfurt">Germany West Central</option>
-      <option value="ITN" title="Milan">Italy North</option>
-      <option value="NE" title="Ireland">North Europe</option>
-      <option value="NWE" title="Norway">Norway East</option>
-      <option value="NWW" title="Norway">Norway West</option>
-      <option value="PLC" title="Warsaw">Poland Central</option>
-      <option value="SPC" title="Madrid">Spain Central</option>
-      <option value="SDC" title="Gõvle">Sweden Central</option>
-      <option value="SZN" title="Zurich">Switzerland North</option>
-      <option value="SZW" title="Geneva">Switzerland West</option>
-      <option value="WE" title="Netherlands">West Europe</option>
+      <option value="frc" title="Paris">France Central</option>
+      <option value="frs" title="Marseille">France South</option>
+      <option value="gn" title="Berlin">Germany North</option>
+      <option value="gwc" title="Frankfurt">Germany West Central</option>
+      <option value="itn" title="Milan">Italy North</option>
+      <option value="ne" title="Ireland">North Europe</option>
+      <option value="nwe" title="Norway">Norway East</option>
+      <option value="nww" title="Norway">Norway West</option>
+      <option value="plc" title="Warsaw">Poland Central</option>
+      <option value="spc" title="Madrid">Spain Central</option>
+      <option value="sdc" title="Gõvle">Sweden Central</option>
+      <option value="szn" title="Zurich">Switzerland North</option>
+      <option value="szw" title="Geneva">Switzerland West</option>
+      <option value="weu" title="Netherlands">West Europe</option>
     </optgroup>
     <optgroup label="Mexico">
-      <option value="MXC" title="QuerÚtaro State">Mexico Central</option>
+      <option value="mxc" title="QuerÚtaro State">Mexico Central</option>
     </optgroup>
     <optgroup label="Middle East">
-      <option value="ILC" title="Israel">Israel Central</option>
-      <option value="QAC" title="Doha">Qatar Central</option>
-      <option value="UAC" title="Abu Dhabi">UAE Central</option>
-      <option value="UAN" title="Dubai">UAE North</option>
+      <option value="ilc" title="Israel">Israel Central</option>
+      <option value="qac" title="Doha">Qatar Central</option>
+      <option value="uac" title="Abu Dhabi">UAE Central</option>
+      <option value="uan" title="Dubai">UAE North</option>
     </optgroup>
     <optgroup label="South America">
-      <option value="BRS" title="Sao Paulo State">Brazil South</option>
-      <option value="BSE" title="Rio">Brazil Southeast</option>
-      <option value="CLC" title="Santiago">Chile Central</option>
+      <option value="brs" title="Sao Paulo State">Brazil South</option>
+      <option value="bse" title="Rio">Brazil Southeast</option>
+      <option value="clc" title="Santiago">Chile Central</option>
     </optgroup>
     <optgroup label="UK">
-      <option value="UKS" title="London">UK South</option>
-      <option value="UKW" title="Cardiff">UK West</option>
+      <option value="uks" title="London">UK South</option>
+      <option value="ukw" title="Cardiff">UK West</option>
     </optgroup>
     <optgroup label="US">
-      <option value="CUS" title="Iowa">Central US</option>
-      <option value="CCY" title="">Central US EUAP</option>
-      <option value="EUS" title="Virginia">East US</option>
-      <option value="EUS2" title="Virginia">East US 2</option>
-      <option value="ECY" title="">East US 2 EUAP</option>
-      <option value="NCUS" title="Illinois">North Central US</option>
-      <option value="SCUS" title="Texas">South Central US</option>
-      <option value="WCUS" title="Wyoming">West Central US</option>
-      <option value="WUS" title="California">West US</option>
-      <option value="WUS2" title="Washington">West US 2</option>
-      <option value="WUS3" title="Phoenix">West US 3</option>
+      <option value="cus" title="Iowa">Central US</option>
+      <option value="ccy" title="">Central US EUAP</option>
+      <option value="eus" title="Virginia">East US</option>
+      <option value="eus2" title="Virginia">East US 2</option>
+      <option value="ecy" title="">East US 2 EUAP</option>
+      <option value="ncus" title="Illinois">North Central US</option>
+      <option value="scus" title="Texas">South Central US</option>
+      <option value="wcus" title="Wyoming">West Central US</option>
+      <option value="wus" title="California">West US</option>
+      <option value="wus2" title="Washington">West US 2</option>
+      <option value="wus3" title="Phoenix">West US 3</option>
     </optgroup>
   </select>
 </template>
