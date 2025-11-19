@@ -1,85 +1,80 @@
 <template>
   <label for="region" class="form-label">Region</label>
   <select class="form-control" id="region" value.bind="name" title="The Azure region where the resource is deployed">
-
     <optgroup label="Africa">
-      <option value="southafricanorth" title="Johannesburg">South Africa North</option>
-      <option value="southafricawest" title="Cape Town">South Africa West</option>
+      <option value="SAN" title="Johannesburg">South Africa North</option>
+      <option value="SAW" title="Cape Town">South Africa West</option>
     </optgroup>
     <optgroup label="Asia Pacific">
-      <option value="australiacentral" title="Canberra">Australia Central</option>
-      <option value="australiacentral2" title="Canberra">Australia Central 2</option>
-      <option value="australiaeast" title="New South Wales">Australia East</option>
-      <option value="australiasoutheast" title="Victoria">Australia Southeast</option>
-      <option value="centralindia" title="Pune">Central India</option>
-      <option value="eastasia" title="Hong Kong">East Asia</option>
-      <option value="indonesiacentral" title="Jakarta">Indonesia Central</option>
-      <option value="japaneast" title="Tokyo, Saitama">Japan East</option>
-      <option value="japanwest" title="Osaka">Japan West</option>
-      <option value="jioindiacentral" title="Nagpur">Jio India Central</option>
-      <option value="jioindiawest" title="Jamnagar">Jio India West</option>
-      <option value="koreacentral" title="Seoul">Korea Central</option>
-      <option value="koreasouth" title="Busan">Korea South</option>
-      <option value="malaysiawest" title="Kuala Lumpur">Malaysia West</option>
-      <option value="newzealandnorth" title="Auckland">New Zealand North</option>
-      <option value="southeastasia" title="Singapore">Southeast Asia</option>
-      <option value="southindia" title="Chennai">South India</option>
-      <option value="westindia" title="Mumbai">West India</option>
+      <option value="ACL" title="Canberra">Australia Central</option>
+      <option value="ACL2" title="Canberra">Australia Central 2</option>
+      <option value="AE" title="New South Wales">Australia East</option>
+      <option value="ASE" title="Victoria">Australia Southeast</option>
+      <option value="INC" title="Pune">Central India</option>
+      <option value="EA" title="Hong Kong">East Asia</option>
+      <option value="IDC" title="Jakarta">Indonesia Central</option>
+      <option value="JPE" title="Tokyo, Saitama">Japan East</option>
+      <option value="JPW" title="Osaka">Japan West</option>
+      <option value="JIC" title="Nagpur">Jio India Central</option>
+      <option value="JIW" title="Jamnagar">Jio India West</option>
+      <option value="KRC" title="Seoul">Korea Central</option>
+      <option value="KRS" title="Busan">Korea South</option>
+      <option value="MYW" title="Kuala Lumpur">Malaysia West</option>
+      <option value="NZN" title="Auckland">New Zealand North</option>
+      <option value="SEA" title="Singapore">Southeast Asia</option>
+      <option value="INS" title="Chennai">South India</option>
+      <option value="INW" title="Mumbai">West India</option>
     </optgroup>
     <optgroup label="Canada">
-      <option value="canadacentral" title="Toronto">Canada Central</option>
-      <option value="canadaeast" title="Quebec">Canada East</option>
+      <option value="CNC" title="Toronto">Canada Central</option>
+      <option value="CNE" title="Quebec">Canada East</option>
     </optgroup>
     <optgroup label="Europe">
-      <option value="austriaeast" title="Vienna">Austria East</option>
-      <option value="belgiumcentral" title="Brussels">Belgium Central</option>
-      <option value="francecentral" title="Paris">France Central</option>
-      <option value="francesouth" title="Marseille">France South</option>
-      <option value="germanynorth" title="Berlin">Germany North</option>
-      <option value="germanywestcentral" title="Frankfurt">Germany West Central</option>
-      <option value="italynorth" title="Milan">Italy North</option>
-      <option value="northeurope" title="Ireland">North Europe</option>
-      <option value="norwayeast" title="Norway">Norway East</option>
-      <option value="norwaywest" title="Norway">Norway West</option>
-      <option value="polandcentral" title="Warsaw">Poland Central</option>
-      <option value="spaincentral" title="Madrid">Spain Central</option>
-      <option value="swedencentral" title="Gõvle">Sweden Central</option>
-      <option value="switzerlandnorth" title="Zurich">Switzerland North</option>
-      <option value="switzerlandwest" title="Geneva">Switzerland West</option>
-      <option value="westeurope" title="Netherlands">West Europe</option>
+      <option value="FRC" title="Paris">France Central</option>
+      <option value="FRS" title="Marseille">France South</option>
+      <option value="GN" title="Berlin">Germany North</option>
+      <option value="GWC" title="Frankfurt">Germany West Central</option>
+      <option value="ITN" title="Milan">Italy North</option>
+      <option value="NE" title="Ireland">North Europe</option>
+      <option value="NWE" title="Norway">Norway East</option>
+      <option value="NWW" title="Norway">Norway West</option>
+      <option value="PLC" title="Warsaw">Poland Central</option>
+      <option value="SPC" title="Madrid">Spain Central</option>
+      <option value="SDC" title="Gõvle">Sweden Central</option>
+      <option value="SZN" title="Zurich">Switzerland North</option>
+      <option value="SZW" title="Geneva">Switzerland West</option>
+      <option value="WE" title="Netherlands">West Europe</option>
     </optgroup>
     <optgroup label="Mexico">
-      <option value="mexicocentral" title="QuerÚtaro State">Mexico Central</option>
+      <option value="MXC" title="QuerÚtaro State">Mexico Central</option>
     </optgroup>
     <optgroup label="Middle East">
-      <option value="israelcentral" title="Israel">Israel Central</option>
-      <option value="qatarcentral" title="Doha">Qatar Central</option>
-      <option value="uaecentral" title="Abu Dhabi">UAE Central</option>
-      <option value="uaenorth" title="Dubai">UAE North</option>
+      <option value="ILC" title="Israel">Israel Central</option>
+      <option value="QAC" title="Doha">Qatar Central</option>
+      <option value="UAC" title="Abu Dhabi">UAE Central</option>
+      <option value="UAN" title="Dubai">UAE North</option>
     </optgroup>
     <optgroup label="South America">
-      <option value="brazilsouth" title="Sao Paulo State">Brazil South</option>
-      <option value="brazilsoutheast" title="Rio">Brazil Southeast</option>
-      <option value="chilecentral" title="Santiago">Chile Central</option>
+      <option value="BRS" title="Sao Paulo State">Brazil South</option>
+      <option value="BSE" title="Rio">Brazil Southeast</option>
+      <option value="CLC" title="Santiago">Chile Central</option>
     </optgroup>
     <optgroup label="UK">
-      <option value="uksouth" title="London">UK South</option>
-      <option value="ukwest" title="Cardiff">UK West</option>
+      <option value="UKS" title="London">UK South</option>
+      <option value="UKW" title="Cardiff">UK West</option>
     </optgroup>
     <optgroup label="US">
-      <option value="centralus" title="Iowa">Central US</option>
-      <option value="centraluseuap" title="">Central US EUAP</option>
-      <option value="eastus" title="Virginia">East US</option>
-      <option value="eastus2" title="Virginia">East US 2</option>
-      <option value="eastus2euap" title="">East US 2 EUAP</option>
-      <option value="eastusstg" title="Virginia">East US STG</option>
-      <option value="northcentralus" title="Illinois">North Central US</option>
-      <option value="southcentralus" title="Texas">South Central US</option>
-      <option value="southcentralusstg" title="Texas">South Central US STG</option>
-      <option value="westcentralus" title="Wyoming">West Central US</option>
-      <option value="westus" title="California">West US</option>
-      <option value="westus2" title="Washington">West US 2</option>
-      <option value="westus3" title="Phoenix">West US 3</option>
+      <option value="CUS" title="Iowa">Central US</option>
+      <option value="CCY" title="">Central US EUAP</option>
+      <option value="EUS" title="Virginia">East US</option>
+      <option value="EUS2" title="Virginia">East US 2</option>
+      <option value="ECY" title="">East US 2 EUAP</option>
+      <option value="NCUS" title="Illinois">North Central US</option>
+      <option value="SCUS" title="Texas">South Central US</option>
+      <option value="WCUS" title="Wyoming">West Central US</option>
+      <option value="WUS" title="California">West US</option>
+      <option value="WUS2" title="Washington">West US 2</option>
+      <option value="WUS3" title="Phoenix">West US 3</option>
     </optgroup>
   </select>
 </template>
